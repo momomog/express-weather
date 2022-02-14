@@ -1,0 +1,27 @@
+{
+  "name": "express-weather",
+  "version": "1.0.0",
+  "description": "backend for weather-vue app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/momomog/express-weather.git"
+  },
+  "author": "Sergey Fokin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/momomog/express-weather/issues"
+  },
+  "homepage": "https://github.com/momomog/express-weather#readme",
+  "dependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "request-promise-native": "^1.0.9",
+    "vue-yandex-maps": "^0.11.5"
+  }
+}
